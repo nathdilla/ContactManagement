@@ -6,9 +6,13 @@
 //
 
 #include <iostream>
+#include "Contacts.hpp"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    Contacts myContact;
+    //myContact.addFile();
+    myContact.newOrLoadMenu();
     return 0;
 }
